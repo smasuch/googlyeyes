@@ -23,6 +23,12 @@ class CameraEyesViewController: UIViewController {
     // Dispose of any resources that can be recreated.
   }
 
-
+  override func viewDidAppear(_ animated: Bool) {
+    super.viewDidAppear(animated)
+    let cameraView = LiveCameraEyesView(frame: self.view.bounds)
+    self.view.addSubview(cameraView)
+    try! cameraView.startShowingCameraFeed()
+  }
+  
 }
 

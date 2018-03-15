@@ -15,6 +15,8 @@
 		60D39C5220531E0E006FA855 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D39C5020531E0E006FA855 /* LaunchScreen.storyboard */; };
 		60D39C5D20531E0E006FA855 /* GooglyEyesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D39C5C20531E0E006FA855 /* GooglyEyesTests.swift */; };
 		60D39C68205323BD006FA855 /* LiveCameraEyesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D39C67205323BD006FA855 /* LiveCameraEyesView.swift */; };
+		60D39CD020585808006FA855 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D39CCF20585808006FA855 /* GameScene.swift */; };
+		60D39CD220585828006FA855 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 60D39CD120585828006FA855 /* GameScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		60D39C5C20531E0E006FA855 /* GooglyEyesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglyEyesTests.swift; sourceTree = "<group>"; };
 		60D39C5E20531E0E006FA855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60D39C67205323BD006FA855 /* LiveCameraEyesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveCameraEyesView.swift; sourceTree = "<group>"; };
+		60D39CCF20585808006FA855 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		60D39CD120585828006FA855 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 				60D39C4420531E0E006FA855 /* AppDelegate.swift */,
 				60D39C4620531E0E006FA855 /* ViewController.swift */,
 				60D39C67205323BD006FA855 /* LiveCameraEyesView.swift */,
+				60D39CCF20585808006FA855 /* GameScene.swift */,
+				60D39CD120585828006FA855 /* GameScene.sks */,
 				60D39C4820531E0E006FA855 /* Main.storyboard */,
 				60D39C4E20531E0E006FA855 /* Assets.xcassets */,
 				60D39C5020531E0E006FA855 /* LaunchScreen.storyboard */,
@@ -185,6 +191,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60D39CD220585828006FA855 /* GameScene.sks in Resources */,
 				60D39C5220531E0E006FA855 /* LaunchScreen.storyboard in Resources */,
 				60D39C4F20531E0E006FA855 /* Assets.xcassets in Resources */,
 				60D39C4A20531E0E006FA855 /* Main.storyboard in Resources */,
@@ -205,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60D39CD020585808006FA855 /* GameScene.swift in Sources */,
 				60D39C4720531E0E006FA855 /* ViewController.swift in Sources */,
 				60D39C68205323BD006FA855 /* LiveCameraEyesView.swift in Sources */,
 				60D39C4520531E0E006FA855 /* AppDelegate.swift in Sources */,
@@ -362,6 +370,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8J2KS77D5S;
 				INFOPLIST_FILE = GooglyEyes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zanopan.GooglyEyes;
@@ -376,6 +385,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8J2KS77D5S;
 				INFOPLIST_FILE = GooglyEyes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zanopan.GooglyEyes;
